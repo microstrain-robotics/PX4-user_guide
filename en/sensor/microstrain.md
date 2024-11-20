@@ -7,9 +7,10 @@ Widely used across industries like aerospace, robotics, industrial automation, a
 
 The driver currently supports the following hardware:
 
-- [`MicroStrain CV7-AHRS`](https://www.microstrain.com/inertial-sensors/3dm-cv7-ahrs): Inertial Measurement Unit (IMU) and Attitude Heading Reference System (AHRS)
-- [`MicroStrain CV7-AR`](https://www.microstrain.com/inertial-sensors/3dmcv7-ar): Inertial Measurement Unit (IMU) and Vertical Reference Unit (VRU)
-- [`MicroStrain CV7-INS`](https://www.microstrain.com/inertial-sensors/3dmcv7-ins): Inertial Measurement Unit (IMU) and Inertial Navigation System (INS). Only sensor output (gyro, accel, mag) is currently available.  Support for the full navigation solution output will be added in a future driver release.
+- [`MicroStrain CV7-INS`](https://www.microstrain.com/inertial-sensors/3DM-CV7-INS): Inertial Measurement Unit (IMU) and Inertial Navigation System (INS). Only sensor output (gyro, accel, mag, baro) is currently available. Support for the Full Navigation solution output will be added in a future driver release.
+- [`MicroStrain CV7-AHRS`](https://www.microstrain.com/inertial-sensors/3dm-cv7-ahrs): Inertial Measurement Unit (IMU) and Attitude Heading Reference System (AHRS). Only sensor output (gyro, accel, mag, baro) is currently available. Roll, Pitch, Yaw support will be added in a future driver release.
+- [`MicroStrain CV7-AR`](https://www.microstrain.com/inertial-sensors/3dmcv7-ar): Inertial Measurement Unit (IMU) and Vertical Reference Unit (VRU). Only sensor output (gyro, accel, baro) is currently available. Roll and Pitch support will be added in a future driver release. 
+
 
 For more information, including user manuals and datasheets, please refer to the sensors product page.
 
